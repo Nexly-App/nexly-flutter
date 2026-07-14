@@ -1,0 +1,23 @@
+name: nexly
+description: >-
+  Official Nexly analytics SDK for Flutter. Track pageviews, screens, custom
+  events, and engagement on iOS and Android with a privacy-friendly API.
+version: 1.0.0
+homepage: https://nexly.to
+repository: https://github.com/Nexly-App/nexly-flutter
+issue_tracker: https://github.com/Nexly-App/nexly-flutter/issues
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
