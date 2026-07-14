@@ -100,9 +100,6 @@ flutter pub get
 flutter test
 ```
 
-The `example/` app consumes the package via a local path dependency:
-
-```bash
-cd example
-flutter run
-```
+There is no bundled example app in this repository — the reference Flutter
+example lives in the `trackers` monorepo at `examples/flutter` and consumes
+this package during development.
